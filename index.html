@@ -6,12 +6,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>School of Computing and Information Courses : Sections</title>
             <link type="text/css" rel="stylesheet" href="style.css">
+            <script src = "main.js"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <section class = "header-container">
@@ -21,23 +25,25 @@
                 </div>
                 <div class = "head-text-box">
                     <div class = "header-text">
-                        <h3>header-title</h1>
+                        <h3>Template</h1>
                         <h4>School of Computing and Information</h2>
                     </div>
                 </div>
             </div>
         </section>
-        <section class = "nav">
-            <div class = "nav-text">
-                <ul class = "nav-bar">
-                        <a>Nav1</a>
-                        <a>Nav2</a>
-                        <a>Nav3</a>
-                        <a>Nav4</a>
-                        <a>Nav5</a>
+        <section class="nav">
+            <div class="nav-text">
+                <button class = "menu-toggle" onclick="toggleMenu()">☰</button>
+                <ul class="nav-bar">
+                    <li><a href="#" onclick="highlightNav(event)">Nav1</a></li>
+                    <li><a href="#" onclick="highlightNav(event)">Nav2</a></li>
+                    <li><a href="#" onclick="highlightNav(event)">Nav3</a></li>
+                    <li><a href="#" onclick="highlightNav(event)">Nav4</a></li>
+                    <li><a href="#" onclick="highlightNav(event)">Nav5</a></li>
                 </ul>
             </div>
         </section>
+        
         <section class = "info-container">
             <div class = "info-text">
                 <h1>Title</h1>
