@@ -82,6 +82,7 @@ body{
     color: white;
     align-items: center;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 .nav-bar {
     display: flex;
@@ -114,6 +115,9 @@ body{
 }
 .nav-bar a:active, .nav-bar .active-link {
     background-color: rgba(255, 184, 28);
+    filter: brightness(100%);
+}
+.nav-bar a:active, .nav-bar .active-link:hover{
     filter: brightness(100%);
 }
 .menu-toggle {
@@ -257,16 +261,21 @@ body{
     }
     
     .nav {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         background-color: #FFB81C;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     .menu-toggle {
         display: block;
         margin: 3px;
+        max-width: 100%;
     }
     button.menu-toggle{
         color:#003594;
+        box-sizing: border-box;
     }
     .nav-bar {
         display: none;
@@ -288,14 +297,18 @@ body{
         padding: 3px 0 3px 0;
         margin: 0;
         border-width: 2px 0 0 0;
+        max-width: 100%;
     }
     .nav-bar a:hover{
+        background-color: #003594;
+        color: white;
         filter: brightness(160%);
     }
     .nav-text{
         font-family: 'Barlow', serif;
-        font-weight: 700;
-        font-size: 20px;
+        font-weight: 600;
+        font-size: 18px;
+        max-width: 100%;
     }
     
     .info-container{
@@ -348,14 +361,15 @@ body{
         font-size: 14px;
         font-weight: 400;
         margin: 5px 5px 5px 5px;
-        padding-left: 5px;
-    
+        padding-left: 0px;
+        border: none;
     }
     .footer-text h3{
         font-family: 'Roboto', serif;
         color: white;
         font-size: 20px;
         font-weight: 300;
+        border: none;
     }
     .footer-text h4{
         font-family: 'Roboto', serif;
