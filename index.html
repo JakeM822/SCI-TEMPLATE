@@ -1,89 +1,118 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>School of Computing and Information Courses : Sections</title>
-            <link type="text/css" rel="stylesheet" href="style.css">
-            <script src = "main.js"></script>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <section class = "header-container">
-            <div class = "head-box">
-                <div class = "logo">
-                    <img src = "images/pitt_logo_2019.png" alt = "University of Pittsburgh Logo">
-                </div>
-                <div class = "head-text-box">
-                    <div class = "header-text">
-                        <h3>Template</h1>
-                        <h4>School of Computing and Information</h2>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School of Computing and Information Courses : Sections</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@100;400;700&family=Barlow:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header-container">
+        <div class="head-box">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/pitt_logo_2019.png" alt="University of Pittsburgh Logo">
+                </a>
+            </div>
+            <div class="head-text-box">
+                <div class="header-text">
+                    <h3>Template</h3>
+                    <h4>School of Computing and Information</h4>
                 </div>
             </div>
-        </section>
-        <section class="nav">
-            <div class="nav-text">
-                <button class = "menu-toggle" onclick="toggleMenu()">☰</button>
-                <ul class="nav-bar">
-                    <li><a href="#" onclick="highlightNav(event)">Nav1</a></li>
-                    <li><a href="#" onclick="highlightNav(event)">Nav2</a></li>
-                    <li><a href="#" onclick="highlightNav(event)">Nav3</a></li>
-                    <li><a href="#" onclick="highlightNav(event)">Nav4</a></li>
-                    <li><a href="#" onclick="highlightNav(event)">Nav5</a></li>
-                </ul>
+        </div>
+    </section>
+
+    <section class="nav">
+        <div class="nav-text">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-bar">
+                <li><a href="index.html" onclick="highlightNav(event)">Example Text 1</a></li>
+                <li><a href="#" onclick="highlightNav(event)">Example Text 2</a></li>
+                <li><a href="#" onclick="highlightNav(event)">Example Text 3</a></li>
+                <li><a href="#" onclick="highlightNav(event)">Example Text 4</a></li>
+                <li><a href="#" onclick="highlightNav(event)">Example Text 5</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="info-container">
+        <div class="info-text">
+            <h1>Title</h1>
+            <div class="info-box">
+                <p>Page Description</p>
             </div>
-        </section>
-        
-        <section class = "info-container">
-            <div class = "info-text">
-                <h1>Title</h1>
-                    <div class = "Info-box">
-                        <p>Page Information</p>
-                    </div>
+        </div>
+        <div class="sec-row">
+            <div class="sec-box">
+                <div class="sec-items">
+                    <h3>Section Title</h3>
+                    <p>Section Description</p>
+                    <img src="images/placeholder.svg" alt="placeholder image">
+                </div>
             </div>
-        </section>
-        <section class = "footer-container">
-            <footer class = "footer-text">
+            <div class="sec-box">
+                <div class="sec-items">
+                    <h3>Section Title</h3>
+                    <p>Section Description</p>
+                    <img src="images/placeholder.svg" alt="placeholder image">
+                </div>
+            </div>
+            <div class="sec-box">
+                <div class="sec-items">
+                    <h3>Section Title</h3>
+                    <p>Section Description</p>
+                    <img src="images/placeholder.svg" alt="placeholder image">
+                </div>
+            </div>
+            <div class="sec-box">
+                <div class="sec-items">
+                    <h3>Section Title</h3>
+                    <p>Section Description</p>
+                    <img src="images/placeholder.svg" alt="placeholder image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-container">
+        <footer class="footer-text">
+            <div class="footer-box">
+                <div class="footer-row">
+                    <img src="images/pitt_logo_2019.png" alt="University of Pittsburgh Logo">
+                    <h3>School of Computing and Information</h3>
+                </div>
+            </div>
+            <div class="footer-row">
                 <div class="footer-box">
-                    <div class = "footer-row">
-                        <img src = "images/pitt_logo_2019.png" alt = "University of Pittsburgh Logo">
-                        <h3>School of Computing and Information</h3>
-                    </div>
+                    <p>Information Science Building, Fifth Floor<br><br>
+                        135 North Bellefield Avenue<br><br>
+                        Pittsburgh, PA 15260<br><br>412-624-5015 <br><br>
+                        <a href="mailto:sciadmit@pitt.edu">sciadmit@pitt.edu</a>
+                    </p>
                 </div>
-                <div class = "footer-row">
-                    <div class = "footer-box">
-                        <p>Information Science Building, Fifth Floor<br><br>
-                            135 North Bellefield Avenue<br><br>
-                            Pittsburgh, PA 15260<br><br>412-624-5015 <br><br> <a href="mailto:sciadmit@pitt.edu">sciadmit@pitt.edu</a></p>
-                    </div>
-                    <div class = "footer-box">
-                        <h4>RESOURCES</h4>
-                        <ul class = "col-list">
-                            <li><a href="https://courses.sci.pitt.edu/logout">Login to Courses</a></li>
-                            <li><a href="https://www.coronavirus.pitt.edu/">Pitt COVID-19 Updates</a></li>
-                            <li><a href="https://sci.pitt.edu/node/557">SCI COVID-19 Response</a></li>
-                            <li><a href="https://sci.pitt.edu/node/399">Departments and Programs</a></li>
-                            <li><a href="https://sci.pitt.edu/node/501">Degrees and Programs</a></li>
-                            <li><a href="https://sci.pitt.edu/node/333">Admissions</a></li>
-                            <li><a href="https://www.registrar.pitt.edu/calendars">Academic Calendar</a></li>
-                            <li><a href="https://www.sci.pitt.edu/student-resources/enrollment-resources">Enrollment Resources</a></li>
-                            <li><a href="https://sci.pitt.edu/people">Faculty Directory</a></li>
-                            <li><a href="https://sci.pitt.edu/node/398">Staff Directory</a></li>
-                        </ul>
-                    </div>
+                <div class="footer-box">
+                    <h4>RESOURCES</h4>
+                    <ul class="col-list">
+                        <li><a href="https://courses.sci.pitt.edu/logout">Login to Courses</a></li>
+                        <li><a href="https://www.coronavirus.pitt.edu/">Pitt COVID-19 Updates</a></li>
+                        <li><a href="https://sci.pitt.edu/node/557">SCI COVID-19 Response</a></li>
+                        <li><a href="https://sci.pitt.edu/node/399">Departments and Programs</a></li>
+                        <li><a href="https://sci.pitt.edu/node/501">Degrees and Programs</a></li>
+                        <li><a href="https://sci.pitt.edu/node/333">Admissions</a></li>
+                        <li><a href="https://www.registrar.pitt.edu/calendars">Academic Calendar</a></li>
+                        <li><a href="https://www.sci.pitt.edu/student-resources/enrollment-resources">Enrollment Resources</a></li>
+                        <li><a href="https://sci.pitt.edu/people">Faculty Directory</a></li>
+                        <li><a href="https://sci.pitt.edu/node/398">Staff Directory</a></li>
+                    </ul>
                 </div>
-                <p>©Copyright 2025</p>
-            </footer>
-        </section>
-    </body>
+            </div>
+            <p style="padding-left: 10px">©Copyright 2025</p>
+        </footer>
+    </section>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+</body>
 </html>
